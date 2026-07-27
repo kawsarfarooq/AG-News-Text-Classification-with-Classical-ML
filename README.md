@@ -1,7 +1,5 @@
 # AG News Text Classification
 
-Course project for **Big Data Analytics and Text Mining, Module 2** (Prof. Stefano Lodi, University of Bologna).
-
 ## Overview
 
 Multi-class classification of 127,600 news articles into 4 categories (World, Sports, Business, Sci/Tech) using TF-IDF features and three classical ML algorithms, with parameter sweeps and per-class error analysis.
