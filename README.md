@@ -4,7 +4,7 @@
 
 **Topic classification of 127,600 news articles using TF-IDF features and three linear and probabilistic classifiers**
 
-*Big Data Analytics and Text Mining · MSc in Artificial Intelligence · Alma Mater Studiorum – Università di Bologna*
+*Big Data Analytics and Text Mining*
 
 ![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.9-F7931E?logo=scikitlearn&logoColor=white)
