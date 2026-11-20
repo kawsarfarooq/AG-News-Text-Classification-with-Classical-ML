@@ -1,0 +1,7 @@
+*.ppt
+*.pptx
+*.pptm
+*.pps
+*.ppsx
+~$*.pptx
+.DS_Store
