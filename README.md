@@ -62,9 +62,7 @@ The notebook downloads the data automatically. If the Hugging Face Hub is unavai
 
 ## Methodology
 
-```
-Raw text ──► Cleaning ──► TF-IDF (1–2 grams, 200k) ──► Validation tuning ──► Final fit ──► Test evaluation
-```
+![Overview of the AG News text classification methodology](Figures/pipeline.png)
 
 1. **Cleaning.** HTML entities left in the raw crawl (for example `#39;` and `&lt;b&gt;`) are decoded, tags and backslashes are removed, and the title and description are joined into one text field.
 2. **Exploratory analysis.** Class balance, document-length statistics by class, and the highest-weighted TF-IDF terms per class.
@@ -117,7 +115,7 @@ For Logistic Regression, the validation gain from C = 5 did not carry over to th
 
 Of the 566 misclassified test articles, 262 (46%) are Business and Sci/Tech confused with each other. Sports is almost perfectly separated thanks to its distinctive vocabulary.
 
-## Course requirements
+## Requirements
 
 | Requirement | This project |
 |:---|:---|
