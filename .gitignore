@@ -5,3 +5,16 @@
 *.ppsx
 ~$*.pptx
 .DS_Store
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example

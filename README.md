@@ -29,6 +29,11 @@ Multi-class classification of 127,600 news articles into 4 categories (World, Sp
 
 The notebook is **self-contained**: it downloads the dataset itself (HuggingFace primary, GitHub CSV mirror as automatic fallback) and requires no auxiliary files.
 
+Use Python 3.12 or 3.13. Internet access is required to download the dataset.
+`requirements.txt` specifies minimum dependency versions rather than a locked
+environment; the notebook prints the actual runtime versions. Saved outputs are
+included for browsing on GitHub without running the notebook.
+
 ```powershell
 # Windows / PowerShell
 python -m venv .venv
@@ -60,7 +65,7 @@ Dominant confusion: Business ↔ Sci/Tech (262 of 566 Linear SVM errors); Sports
 ## Notebook contents
 
 The notebook opens with an abstract, a table of contents, a requirements/setup section
-(pinned library versions + how to run), and a methodology overview, followed by the
+(library versions + how to run), and a methodology overview, followed by the
 numbered analysis:
 
 1. Data loading (auto-download), HTML-entity cleaning and derived raw features
